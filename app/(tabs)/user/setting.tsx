@@ -2,6 +2,7 @@ import React from 'react'; // Ensure React is imported
 import { View, Text, Button } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useRouter } from 'expo-router';
+import { supabase } from '../../../supabase/supabase';
 
 const SettingScreen = () => {
   const router = useRouter();

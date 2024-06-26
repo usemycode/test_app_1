@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 import { useRouter } from 'expo-router';
+import { supabase } from '../../../supabase/supabase';
 
 const RegisterScreen = () => {
   const router = useRouter();
